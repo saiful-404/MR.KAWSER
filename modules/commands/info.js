@@ -25,13 +25,13 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =[
-"https://i.postimg.cc/LXp4CN1T/received-325524310216120.jpg",
+"https://i.imgur.com/lCtw8u0.jpeg",
 ];
-var callback = () => api.sendMessage({body:` ♛|| Admin and Bot Info ||♛
+var callback = () => api.sendMessage({body:`۵⊰᯽⊱┈────╌❊╌────┈⊰᯽⊱\n┏•━•━•━ ◎ ━•━•━•┓\n🔥 𝗕𝗢𝗧  𝗢𝗪𝗡𝗘𝗥🔥\n┗•━•━•━ ◎ ━•━•━•┛\n╭────────────────╮\n✜ 𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝗞𝗔𝗪𝗦𝗘𝗥 ✜\n╰────────────────╯\n\n♛|| Admin and Bot Info ||♛
 
 ➠Bot Name: ${global.config.BOTNAME}
 
-➠Bot Admin: ${global.config.ADMINBOT}
+➠Bot Admin: ${global.config.ADMINBOT} 
 
 ➠Facebook: ${global.config.OWNERLINK}
 
