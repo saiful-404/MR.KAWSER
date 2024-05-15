@@ -28,7 +28,7 @@ module.exports.languages = {
 		"moduleInfo": "「 %1 」\n%2\n\n❯ Usage: %3\n❯ Category: %4\n❯ Cooldown: %5 seconds(s)\n❯ Permission: %6\n\n» Code module by AYAN «",
 		"helpList": '[ There are %1 commands on this bot, Use: "%2help commandName" to know how to use! ]',
 		"user": "Anyone",
-		"adminGroup": "Admin of group",
+		"adminGroup": "Admin on group",
 		"adminBot": "Admin of bot"
 	}
 };
@@ -62,7 +62,7 @@ module.exports.handleEvent = async function({ api, event, getText }) {
 		i = startSlice;
 		const returnArray = arrayInfo.slice(startSlice, startSlice + numberOfOnePage);
 
-		for (let item of returnArray) msg +=`╭─❍\n➠ ${item}\n╰───────────⟡\n`;
+		for (let item of returnArray) msg +=`⊰᯽⊱┈────╌❊╌────┈⊰᯽⊱\n┏•━•━•━ ◎ ━•━•━•┓\n🔥 𝗕𝗢𝗧  𝗢𝗪𝗡𝗘𝗥🔥\n┗•━•━•━ ◎ ━•━•━•┛\n╭────────────────╮\n✜ 𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝗞𝗔𝗪𝗦𝗘𝗥 ✜\n╰────────────────╯\n\n╭─❍\n➠ ${item}\n╰───────────⟡\n`;
 		const randomQuotes = [
 	"Octopuses have three hearts: two pump blood to the gills, and one pumps it to the rest of the body.",
 		"Honey never spoils; archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old.",
@@ -126,8 +126,8 @@ let path = __dirname + `/cache/help.png`;
 		})
 	).data;
 	fs.writeFileSync(path, Buffer.from(image, "utf-8"));*/
-		const text = `𝗧𝗢𝗧𝗔𝗟 𝗖𝗠𝗗𝗦:[${arrayInfo.length}]\n\n𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗖𝗔𝗧𝗚𝗢𝗥𝗬\n\n𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: ➪\nhttps://www.facebook.com/AYAN.JANU.LOVE.YOU.MY.HEART`;
-		return api.sendMessage(`✓✓✓\n\n╔═════▓࿇࿇▓═════╗\n             𝐀𝐋𝐋 𝐂𝐌𝐃 𝐋𝐈𝐒𝐓\n╚═════▓࿇࿇▓═════╝\n\n 𝖯𝖺𝗀𝖾 『 ${page} /${Math.ceil(arrayInfo.length/numberOfOnePage)} 』` + "\n" + msg + "\n" + text, threadID, async (error, info) => {
+		const text = `⊰᯽⊱┈────╌❊╌────┈⊰᯽⊱\n┏•━•━•━ ◎ ━•━•━•┓\n🔥 𝗕𝗢𝗧  𝗢𝗪𝗡𝗘𝗥🔥\n┗•━•━•━ ◎ ━•━•━•┛\n╭────────────────╮\n✜ 𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝗞𝗔𝗪𝗦𝗘𝗥 ✜\n╰────────────────╯\n\n𝗧𝗢𝗧𝗔𝗟 𝗖𝗠𝗗𝗦:[${arrayInfo.length}]\n\n𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗖𝗔𝗧𝗚𝗢𝗥𝗬\n\n𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸: ➪\nhttps://www.facebook.com/AYAN.JANU.LOVE.YOU.MY.HEART`;
+		return api.sendMessage(`۵⊰᯽⊱┈────╌❊╌────┈⊰᯽⊱\n┏•━•━•━ ◎ ━•━•━•┓\n🔥 𝗕𝗢𝗧  𝗢𝗪𝗡𝗘𝗥🔥\n┗•━•━•━ ◎ ━•━•━•┛\n╭────────────────╮\n✜ 𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝗞𝗔𝗪𝗦𝗘𝗥 ✜\n╰────────────────╯\n\n✓✓✓\n\n╔═════▓࿇࿇▓═════╗\n             𝐀𝐋𝐋 𝐂𝐌𝐃 𝐋𝐈𝐒𝐓\n╚═════▓࿇࿇▓═════╝\n\n 𝖯𝖺𝗀𝖾 『 ${page} /${Math.ceil(arrayInfo.length/numberOfOnePage)} 』` + "\n" + msg + "\n" + text, threadID, async (error, info) => {
 			if (autoUnsend) {
 				await new Promise(resolve => setTimeout(resolve, delayUnsend * 10000));
 				return api.unsendMessage(info.messageID);
