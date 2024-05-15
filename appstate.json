@@ -1,4 +1,119 @@
-credits by🥀Ayan Choudhury🥀
-
-
-#All text remove and send this you bot cookie now 
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261559817176798%22%3A%22KR0P0QAs%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.633Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "datr",
+        "value": "IVxEZjhotx3Vs88TRhDr1zyr",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "sb",
+        "value": "IVxEZu1D3_mYlzppxZNnCztn",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "m_pixel_ratio",
+        "value": "2",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "fr",
+        "value": "0QtIkZtI74xq4ah7q.AWVAgDIMRtjSJAoSCXOyqvCt-FA.BmRFwh..AAA.0.0.BmRFxE.AWUvAvmEtpY",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61559817176798",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "xs",
+        "value": "35%3A3Om4AH2Vq7fNpA%3A2%3A1715756100%3A-1%3A-1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "m_page_voice",
+        "value": "61559817176798",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "wd",
+        "value": "360x714",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_US",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "101532848%3BT%3A28595936",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2500%3Btimestamp%3A1715756149",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B714x360x2",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-05-15T07:03:00.634Z",
+        "lastAccessed": "2024-05-15T07:03:00.634Z"
+    }
+]
