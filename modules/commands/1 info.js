@@ -48,6 +48,6 @@ var callback = () => api.sendMessage({body:` ♛|| Admin and Bot Info ||♛
 ➠Bot is running ${hours}:${minutes}:${seconds}.
 
 ➠Thanks for using ${global.config.BOTNAME}
-`,attachment: fs.createReadStream(__dirname + "owner_photo.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "owner_photo.jpg")); 
-	 return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"owner_photo.jpg")).on("close",() => callback());
+`,attachment: fs.createReadStream(__dirname + "https://i.imgur.com/lCtw8u0.jpeg")}, event.threadID, () => fs.unlinkSync(__dirname + "https://i.imgur.com/lCtw8u0.jpeg",)); 
+	 return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"https://i.imgur.com/lCtw8u0.jpeg",)).on("close",() => callback());
 	};
