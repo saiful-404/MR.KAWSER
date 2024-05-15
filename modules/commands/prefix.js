@@ -28,7 +28,7 @@ const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (data.PREFIX == null) {
         return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🚀AYAN-ROBOT PREFIX ⇉ [ ${prefix} ]`)
       }
-      else return out(`️️️️️️️️️️️️️️️️️️️️️️️️️🛸AYAN-ROBOT PREFIX  ⇉ 👉🏻 [ ${prefix} ]  `    + data.PREFIX )
+      else return out(`️️️️️️️️️️️️️️️️️️️️️️️️️۵⊰᯽⊱┈────╌❊╌────┈⊰᯽⊱\n┏•━•━•━ ◎ ━•━•━•┓\n🔥 𝗕𝗢𝗧  𝗢𝗪𝗡𝗘𝗥🔥\n┗•━•━•━ ◎ ━•━•━•┛\n╭────────────────╮\n✜ 𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝗞𝗔𝗪𝗦𝗘𝗥 ✜\n╰────────────────╯\n\n🛸KAWSER ROBOT PREFIX  ⇉ 👉🏻 [ ${prefix} ]  `    + data.PREFIX )
     }
 
   });
